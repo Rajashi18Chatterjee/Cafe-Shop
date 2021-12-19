@@ -1,0 +1,132 @@
+body{
+	margin: 0px;
+}
+.coffee-header{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #0a2d42;
+	z-index: 100;
+}
+
+.div-logo{
+	height: 100%;
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+
+.logo-text{
+	display: block;
+	font-weight: bold;
+	font-family: "Helvetica Nueu";
+	color: white;
+}
+
+.coffee-nav{
+	float: right;
+	height: 100%;
+}
+
+.coffee-nav a{
+	color: white;
+	font-size: 15px;
+	padding-right: 20px;
+	font-weight: 700;
+	font-family: "Helvetica Nueu";
+	padding-top: 12%;
+	display: inline-block;
+}
+
+.site-content{
+	width: 100%;
+	position: absolute;
+	top: 78px;
+}
+.image-content{
+	background-image: url("background-image.png");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
+
+.quote{
+	color: white;
+	font-family: "Helvetica Nueu";
+	position: relative;
+	top: 10%;
+}
+
+.card-list{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+}
+
+#product{
+	text-align: center;
+}
+
+.card{
+	width: 22%;
+	padding: 1.5%;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+.card img{
+	width: 100%;
+}
+
+.order-section{
+	width: 100%;
+}
+
+#order{
+	text-align: center;
+}
+
+
+
+.form{
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+}
+
+.order-content{
+
+	position: relative;
+	top: 100px;
+}
+
+.about-content{
+
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+.contact{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.contact-section{
+	text-align: center;
+}
+
+.button{
+	position: relative;
+	top: 300px;
+	text-align: center;
+	color: blue;
+	font-size: 70px;
+	font-family: italics;
+	opacity: 0.7;
+
+}
